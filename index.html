@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+   
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" 
+    integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+   
+  </head>
+  <body>
+    <nav>
+      <div class="logo">Your individual spreadsheet</div>
+    
+      </div>
+    </nav>
+    <section class="hero">
+      <div class="hero-container">
+        <div class="column-left">
+          <h1>Хочешь выработать новые привычки и изменить свой образ жизни?</h1>
+          <p>
+            В этом 2022 году ты сможешь реализовать все цели благодаря 12-месячному электронному трекеру привычек
+          </p>
+          <button class="scroll">Листай вниз</button>
+        </div>
+        <div class="column-right">
+          <img
+            src="img/photo.jpg"
+            alt="illustration
+        "
+            class="hero-image"
+          />
+        </div>
+        <div class="services">
+          <div class="services_container">
+            <div>
+        <h1 class="w3-center">Преимущества трекера</h1>
+        <div class="services_features">
+
+          <p class="services_feature">
+            <i class="fas fa-check-circle"></i>Быстрое заполнение и изменение данных
+          </p>
+          <p class="services_feature">
+            <i class="fas fa-check-circle"></i>Автоматическое вычисление
+          </p>
+          <p class="services_feature">
+            <i class="fas fa-check-circle"></i>Отслеживание прогресса в течении 12 месяцев
+          </p>
+          <p class="services_feature">
+            <i class="fas fa-check-circle"></i>Возможность зайти в Google Таблицу через любое устройство
+          </p>
+        </div>
+
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+        * {box-sizing: border-box}
+        body {font-family: Verdana, sans-serif; margin:0}
+        .mySlides {display: none}
+        img {vertical-align: middle;}
+        
+        /* Slideshow container */
+        .slideshow-container {
+          max-width: 1000px;
+          position: relative;
+          margin: auto;
+          width: 600px;;
+          margin-left: 300px;
+        }
+ 
+        .prev, .next {
+          cursor: pointer;
+          position: absolute;
+          top: 50%;
+          width: auto;
+          padding: 16px;
+          margin-top: -22px;
+          color: white;
+          font-weight: bold;
+          font-size: 18px;
+          transition: 0.6s ease;
+          border-radius: 0 3px 3px 0;
+        }
+        
+        .next {
+          right: 0;
+          border-radius: 3px 0 0 3px;
+        }
+        
+        .prev:hover, .next:hover {
+          background-color: rgba(0,0,0,0.8);
+        }
+        
+        .text {
+          color: #f2f2f2;
+          font-size: 15px;
+          padding: 8px 12px;
+          position: absolute;
+          bottom: 8px;
+          width: 100%;
+          text-align: center;
+        }
+    
+        .numbertext {
+          color: #f2f2f2;
+          font-size: 12px;
+          padding: 8px 12px;
+          position: absolute;
+          top: 0;
+        }
+      
+        .fade {
+          -webkit-animation-name: fade;
+          -webkit-animation-duration: 1.5s;
+          animation-name: fade;
+          animation-duration: 1.5s;
+        }
+        
+        @-webkit-keyframes fade {
+          from {opacity: .4} 
+          to {opacity: 1}
+        }
+        
+        @keyframes fade {
+          from {opacity: .4} 
+          to {opacity: 1}
+        }
+    
+        @media only screen and (max-width: 300px) {
+          .prev, .next,.text {font-size: 11px}
+        }
+        </style>
+        </head>
+        <body>
+        
+        <div class="slideshow-container">
+        
+        <div class="mySlides fade">
+          <img src="img/pervoe.jpg" style="width:100%">
+        </div>
+        
+        <div class="mySlides fade">
+          <img src="img/vtoroe.jpg" style="width:100%">
+        </div>
+        
+        <div class="mySlides fade">
+          <img src="img/trete.jpg" style="width:100%">
+        </div>
+        
+        <a class="prev" onclick="plusSlides(-1)">❮</a>
+        <a class="next" onclick="plusSlides(1)">❯</a>
+        
+        </div>
+        <br>
+      
+        
+        <script>
+        var slideIndex = 1;
+        showSlides(slideIndex);
+        
+        function plusSlides(n) {
+          showSlides(slideIndex += n);
+        }
+        
+        function currentSlide(n) {
+          showSlides(slideIndex = n);
+        }
+        
+        function showSlides(n) {
+          var i;
+          var slides = document.getElementsByClassName("mySlides");
+          var dots = document.getElementsByClassName("dot");
+          if (n > slides.length) {slideIndex = 1}    
+          if (n < 1) {slideIndex = slides.length}
+          for (i = 0; i < slides.length; i++) {
+              slides[i].style.display = "none";  
+          }
+          for (i = 0; i < dots.length; i++) {
+              dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";  
+          dots[slideIndex-1].className += " active";
+        }
+        </script>
+
+
+      <div class="main" id="Whatsapp">
+        <div class="main__container">
+          <div class="main__content">
+            <h1 class="header1">Скачай PDF-файл со ссылкой на Google Лист всего за 1700 тенге</h1>
+            <h2 class="header2">Для заказа писать на Whatsapp</h2>
+          <br>
+           <button class="wh"><a href="https://wa.me/+77015389206">Whatsapp</a></button>
+          </div>
+        
+    </section>
+   
+    
+  </body>
+</html>
